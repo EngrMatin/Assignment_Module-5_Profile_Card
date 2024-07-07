@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+        body, html 
+        {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        .profile-card 
+        {
+            width: 300px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .profile-image img 
+        {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .profile-header h2 
+        {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .profile-header p 
+        {
+            margin: 5px 0 20px 0;
+            font-size: 18px;
+            color: #777;
+        }
+
+        .profile-body p 
+        {
+            font-size: 14px;
+            color: #555;
+            margin: 0 0 20px 0;
+        }
+
+        .profile-footer p 
+        {
+            font-size: 14px;
+            color: #999;
+            margin: 5px 0;
+        }
+
+        .profile-social 
+        {
+            display: flex;
+            justify-content: center;
+            gap: 40px; 
+            margin-top: 20px;
+        }
+
+        .profile-social a 
+        {
+            text-decoration: none;
+        }
+
+        .profile-social img 
+        {
+            width: 24px;
+            height: 24px;
+        }
+
+        .profile-social a:hover img 
+        {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile-card">
+        <div class="profile-image">
+            <img src="images/matin.jpg" alt="Profile Image">
+        </div>
+        <div class="profile-header">
+            <h2>M.A Matin</h2>
+            <p>Software Engineer</p>
+        </div>
+        <div class="profile-body">
+            <p>Hello! I'm Matin, a passionate software engineer with over 10 years of experience in developing scalable web applications.</p>
+        </div>
+        <div class="profile-footer">
+            <p>Email: engr.matin.com@gmail.com</p>
+            <p>Mobile: +8801715529212</p>
+        </div>
+        <div class="profile-social">
+            <a href="https://www.facebook.com/engr.matin/" target="_blank">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.linkedin.com/in/engr-m-a-matin/" target="_blank">
+                <img src="images/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/EngrMatin" target="_blank">
+                <img src="images/github.png" alt="GitHub">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
